@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  postition: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+  background-color: #fafafa;
+}
+
+#title {
+  text-align: center;
+}
+
+#markdown-textarea {
+  resize: none;
+  width: 100%;
+  height: 70vh;
+}
+
+#markdown-output {
+  width: 100%;
+  border: 1px solid #fff;
+  min-height: 70vh;
+  -moz-box-shadow:    inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+  box-shadow:         inset 0 0 3px #000000;
+  padding: 3px;
+}
+
+#footer {
+  margin-top: 1.5em;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 14pt;
+}
+
+#footer a {
+  margin-left: 0;
+}
+
+#footer a:link,
+#footer a:active,
+#footer a:visited,
+#footer a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}

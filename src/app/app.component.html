@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<div class="row">
+  <div class="col-md-6 col-xs-12">
+    <markdown-input #mdInput></markdown-input>
+  </div>
+  <div class="col-md-6 col-xs-12">
+    <markdown-output #mdOutput [content]="mdOutput.updateMarkedContent(mdInput.content)"></markdown-output>
+  </div>
+</div>

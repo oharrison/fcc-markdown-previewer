@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { MarkdownOutputComponent } from './markdown-output';
+import { MarkdownInputComponent } from './markdown-input';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MarkdownOutputComponent,
+    MarkdownInputComponent
   ],
   imports: [
     BrowserModule,

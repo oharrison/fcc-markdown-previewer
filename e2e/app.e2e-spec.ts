@@ -1,6 +1,6 @@
 import { MarkdownPreviewerPage } from './app.po';
 
-describe('markdown-previewer App', function() {
+describe('fcc-markdown-previewer App', function() {
   let page: MarkdownPreviewerPage;
 
   beforeEach(() => {
